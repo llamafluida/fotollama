@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fotollama-react/static/css/main.e44c05eb.css",
-    "main.js": "/fotollama-react/static/js/main.3b279cbe.js",
+    "main.js": "/fotollama-react/static/js/main.e6c62255.js",
     "static/js/787.45e1ed28.chunk.js": "/fotollama-react/static/js/787.45e1ed28.chunk.js",
     "static/media/banner.jpg": "/fotollama-react/static/media/banner.8c06285add6a285f51ae.jpg",
     "index.html": "/fotollama-react/index.html",
     "main.e44c05eb.css.map": "/fotollama-react/static/css/main.e44c05eb.css.map",
-    "main.3b279cbe.js.map": "/fotollama-react/static/js/main.3b279cbe.js.map",
+    "main.e6c62255.js.map": "/fotollama-react/static/js/main.e6c62255.js.map",
     "787.45e1ed28.chunk.js.map": "/fotollama-react/static/js/787.45e1ed28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e44c05eb.css",
-    "static/js/main.3b279cbe.js"
+    "static/js/main.e6c62255.js"
   ]
 }
