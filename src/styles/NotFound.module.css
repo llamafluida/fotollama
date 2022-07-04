@@ -1,0 +1,17 @@
+.NotFound {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.NotFound__message {
+    font-size: 20px;
+}
+.NotFound__message--big {
+    font-size: 24px;
+    font-weight: 500;
+}

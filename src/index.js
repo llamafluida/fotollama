@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './styles/globals.css';
+import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
+import Folder from './pages/Folder';
+import Gallery from './pages/Gallery';
+import { ModalContextProvider } from './context/ModalContext';
+import NotFound from './pages/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ModalContextProvider>
+      <BrowserRouter basename="/fotollama-react">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route element={<Folder />}>
+            <Route path=":folderName" element={<Gallery />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </ModalContextProvider>
   </React.StrictMode>
 );
 
