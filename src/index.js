@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ModalContextProvider>
-      <BrowserRouter basename="/fotollama-react">
+      <BrowserRouter basename="/fotollama">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route element={<Folder />}>
