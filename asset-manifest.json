@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fotollama-react/static/css/main.c11638a4.css",
-    "main.js": "/fotollama-react/static/js/main.fd03c517.js",
-    "static/js/787.45e1ed28.chunk.js": "/fotollama-react/static/js/787.45e1ed28.chunk.js",
-    "static/media/banner.jpg": "/fotollama-react/static/media/banner.8c06285add6a285f51ae.jpg",
-    "index.html": "/fotollama-react/index.html",
-    "main.c11638a4.css.map": "/fotollama-react/static/css/main.c11638a4.css.map",
-    "main.fd03c517.js.map": "/fotollama-react/static/js/main.fd03c517.js.map",
-    "787.45e1ed28.chunk.js.map": "/fotollama-react/static/js/787.45e1ed28.chunk.js.map"
+    "main.css": "/fotollama/static/css/main.13812983.css",
+    "main.js": "/fotollama/static/js/main.f20ded18.js",
+    "static/js/787.8d302ad4.chunk.js": "/fotollama/static/js/787.8d302ad4.chunk.js",
+    "static/media/banner.jpg": "/fotollama/static/media/banner.8c06285add6a285f51ae.jpg",
+    "index.html": "/fotollama/index.html",
+    "main.13812983.css.map": "/fotollama/static/css/main.13812983.css.map",
+    "main.f20ded18.js.map": "/fotollama/static/js/main.f20ded18.js.map",
+    "787.8d302ad4.chunk.js.map": "/fotollama/static/js/787.8d302ad4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c11638a4.css",
-    "static/js/main.fd03c517.js"
+    "static/css/main.13812983.css",
+    "static/js/main.f20ded18.js"
   ]
 }
