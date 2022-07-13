@@ -1,19 +1,21 @@
 import React from 'react';
 import folders from '../utils/folders';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = ({ tabIndex = undefined, styles }) => {
   return (
     <>
       {folders.map((folder, key) => (
-        <Link
+        <NavLink
           key={`Link-${key}`}
           to={`/${folder}`}
           tabIndex={tabIndex}
-          className={`${styles['Header__anchor']}`}
+          className={({ isActive }) =>
+            [styles['Header__anchor'], isActive ? styles.active : null].filter(Boolean).join(' ')
+          }
         >
           {folder.split('-').join(' ')}
-        </Link>
+        </NavLink>
       ))}
     </>
   );

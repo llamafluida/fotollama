@@ -77,7 +77,7 @@ const Gallery = () => {
       <div className={styles.Gallery}>
         {imageList.map((image, key) => (
           <Polaroid
-            src={`images/${folder}/${image.src}`}
+            src={`images/${folder}/${image.thumbnail}`}
             alt={image.text}
             key={key}
             onClick={() => openModal(key)}
