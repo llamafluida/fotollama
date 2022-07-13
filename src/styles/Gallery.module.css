@@ -5,11 +5,12 @@
     row-gap: 50px;
     margin: 0 auto;
     justify-content: center;
-    width: 100%;
+    max-width: 510px;
   }
   
   @media only screen and (min-width: 800px) {
     .Gallery {
+      max-width: 100%;
       grid-template-columns: repeat(auto-fill, 450px);
       column-gap: 50px;
     }
