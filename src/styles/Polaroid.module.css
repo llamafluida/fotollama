@@ -1,5 +1,6 @@
 .Polaroid {
   width: 450px;
+  height: 360px;
   cursor: pointer;
   padding: 30px 30px 60px;
   border-radius: 5px;
@@ -22,6 +23,9 @@
 
 @media only screen and (max-width: 800px) {
   .Polaroid {
-    width: clamp(100px, 100%, 450px);
+    width: unset;
+    height: unset;
+    max-width: 450px;
+    aspect-ratio: 2 / 1;
   }
 }
