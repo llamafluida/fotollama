@@ -78,6 +78,7 @@ const Gallery = () => {
         {imageList.map((image, key) => (
           <Polaroid
             src={`images/${folder}/${image.thumbnail}`}
+            placeholderSrc={`images/${folder}/${image.placeholder}`}
             alt={image.text}
             key={key}
             onClick={() => openModal(key)}

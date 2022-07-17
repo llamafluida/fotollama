@@ -21,3 +21,7 @@ Portafolio personal, que cuenta con una página principal, y cuatro páginas de 
 - [Google Fonts](https://fonts.google.com/) -Servicio de fuentes de Google
 - [Prettier](https://prettier.io/) - Formateador de Código
 - [ESLint](https://eslint.org/) - Herramienta de Análisis de Código
+
+## Recursos de ayuda
+- [Platzi](https://platzi.com/)
+- [Artículo sobre progressive images](https://blog.logrocket.com/progressive-image-loading-react-tutorial/)
